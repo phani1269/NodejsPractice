@@ -5,7 +5,7 @@ const app = express();
 dotenv.config();
 
 app.listen(process.env.PORT, () => {
-    console.log(`started on ${process.env.PORT}`);
+    console.log(`running on ${process.env.PORT}`);
 })
 
 app.use(express.json());
